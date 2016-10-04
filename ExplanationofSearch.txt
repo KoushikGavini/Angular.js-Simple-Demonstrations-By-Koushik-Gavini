@@ -1,0 +1,12 @@
+We first have to turn our application into a module.
+
+Modules are a way of organizing JavaScript applications into self-contained components that can be combined in new and interesting ways. Angular relies on this technique for code isolation and requires that your application follows it before you can create a filter. There are only two things that you need to do to turn your app into a module:
+
+Use the angular.module("name",[]) function call in your JS. This will instantiate and return a new module;
+Pass the name of the module as the value of the ng-app directive.
+Creating a filter then is as simple as calling the filter() method on the module object returned by angular.module("name", []).
+
+Filters follow the Angular.js philosophy – every piece of code that you write should be self-contained, testable and reusable. You can use this filter in all your views and even combine it with others through chaining.
+
+
+

@@ -1,0 +1,3 @@
+we are using Angular’s directives to set and read the active variable. When it changes, it causes the HTML that uses it to be updated automatically. In Angular’s terminology, this variable is called a model. It is available to all directives in the current scope, and can be accessed in your controllers (more on that in the next example).
+
+If you have used JavaScript templates before, you are familiar with the {{var}} syntax. When the framework sees such a string, it replaces it with the contents of the variable. This operation is repeated every time var is changed.
